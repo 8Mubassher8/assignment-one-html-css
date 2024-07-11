@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.background-cover-pic{
+    background-image: url(../images/assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+
+p{
+    font-size: 20px;
+
+}
+h2{
+    font-size:40px ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 48px;
+}
+
+.front-page{
+    text-align: center;
+    width: 998px;
+    height: 582px;
+    margin: 20px auto;
+}
+.front-page h1{
+    margin-bottom: 30px;
+}
+.front-page p{
+    margin-bottom: 30px;
+}
+
+.picture-size{
+    height: 240px;
+    width: 240px;
+}
+.btn{
+    
+    border-radius: 8px;
+    padding: 18px 18px;
+    background-color:  #000;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.sec-background{
+    background-color: rgba(13, 19, 33, 0.02);
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    /* background-color: rgba(13, 19, 33, 0.02) ; */
+}
+.sec-head{
+    text-align: center;
+}
+.sce-para{
+    text-align: center;
+}
+.aims{
+    background-color: white;
+    display: flex;
+    border-radius: 16px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.layer-pic{
+    width: 60%;
+   margin-left: 100px;
+}
+
+.img{
+    width: 50%;
+}
+
+.aim-title{
+    width: 390px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 30px;
+    row-gap: 36px;
+    color: #0D1321;
+}
+.aims-block{
+    width: 50%;
+    line-height: 30px;
+}
+.aims-button{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #0D1321;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.think{
+    width: 100%;
+}
+.dev-thinking{
+    text-align: center;
+    width: 852px;
+    height: 115px;
+    margin: 0 144px;
+}
+.thinking-h{
+    height: 39px;
+    font-size: 32px;
+    row-gap: 37px;
+}
+
+
+
+iframe{
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgba(0, 76, 232, 0.05);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* Section background start  */
+.title{
+    padding: 80px 100px ;
+    line-height: 30px;
+}
+.html{
+    width: 30%;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.css{
+    width: 30%;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+    padding: 40px; 
+}
+.js{
+    width: 30%;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+
+}
+.sub-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cover-pic{
+    background-image: url(../images/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.support{
+    width: 50%;
+    margin: 0 auto;
+}
+form{
+    text-align: center;
+}
+input{
+    outline: none;
+    border: 1px solid white;
+    padding: 20px 10px;
+    width: 40%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.submit-btn{
+    outline: none;
+    border: 1px solid white;
+    padding: 20px 50px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+footer{
+    background: rgba(13, 19, 33, 0.06);
+    margin-top: 100px;
+}
+h3{
+    width: 50%;
+    font-size: 30px;
+}
+.footer-social-icons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.footer-social-icons > img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
